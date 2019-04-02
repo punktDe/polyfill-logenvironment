@@ -1,0 +1,19 @@
+{
+    "description": "Provides the LogEnvironment Utility class for Flow < 4.2",
+    "type": "neos-package",
+    "name": "punktde/polyfill-logenvironment",
+    "license": "MIT",
+    "require": {
+        "neos/flow": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PunktDe\\Polyfill\\LogEnvironment\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "PunktDe.Polyfill.LogEnvironment"
+        }
+    }
+}
